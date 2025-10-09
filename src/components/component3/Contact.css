@@ -1,0 +1,95 @@
+.greyLine {
+  border: 1px solid #c2c0c5;
+  margin-top: 48px;
+  margin-bottom: 47px;
+}
+
+#line {
+  margin-top: 94px;
+  margin-bottom: 48px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutMe p {
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #33323d;
+  opacity: 80%;
+  max-width: 635px;
+  margin-bottom: 24px;
+}
+
+.contact h2 {
+  font-family: Ibarra Real Nova;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  color: #33323d;
+  max-width: 350px;
+}
+form {
+  width: 635px;
+}
+.inp1 {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: Public Sans;
+  font-weight: 700;
+  font-size: 13px;
+
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #33323d;
+  opacity: 80%;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 100%;
+  background-color: #dfdfe3;
+  height: 48px;
+  margin-bottom: 24px;
+  padding-left: 12px;
+}
+
+textarea {
+  width: 100%;
+  background-color: #dfdfe3;
+  height: 96px;
+  margin-bottom: 24px;
+  padding: 12px 0px 0px 12px
+}
+
+form button{
+    width: 200px;
+    height: 48px;
+    background-color: #203A4C;
+    font-family: Public Sans;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 2px;
+text-align: center;
+text-transform: uppercase;
+color:white;
+margin-bottom: 109px;
+}
+
+.error-border{
+  border:1px solid red;
+  margin-bottom: 4px;
+}
+.error-msg{
+  color:red;
+  margin-bottom: 22px;
+}

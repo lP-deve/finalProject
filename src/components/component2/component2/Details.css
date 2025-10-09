@@ -1,0 +1,109 @@
+.coverImg{
+    width: 100%;
+    margin-top: 94px;
+    margin-bottom: 115px;
+}
+
+.project_info{
+   display: flex; 
+   gap:125px;
+}
+
+.manage{
+    max-width: 350px;
+}
+.manage h3{
+font-family: Ibarra Real Nova;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.36px;
+color:#33323D;
+margin-top: 48px;
+margin-bottom: 29px;
+}
+
+.manage p{
+   font-family: Public Sans;
+font-weight: 400;
+font-size: 15px;
+width: 350px;
+line-height: 30px;
+letter-spacing: 0px;
+color:#33323D;
+margin-bottom: 23px;
+ 
+}
+
+.container{
+    max-width: 635px;
+}
+h4{
+  font-family: Ibarra Real Nova;
+font-weight: 400;
+font-size: 32px;
+
+line-height: 42px;
+letter-spacing: -0.29px;
+ color:#33323D; 
+}
+
+.about{
+font-family: Public Sans;
+font-weight: 400;
+font-size: 15px;
+width: 635px;
+line-height: 30px;
+letter-spacing: 0px;
+margin-bottom: 40px;
+margin-top: 28px;
+
+}
+
+.container img{
+    max-width: 635px;
+}
+.pic{
+    margin-top:28px ;
+    margin-bottom: 32px;
+}
+.move{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+    max-width: 162px;
+    height: 56px;
+    margin-block: 32px;
+}
+h5{
+ font-family: Ibarra Real Nova;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: -0.29px;
+   color:#33323D;
+
+}
+
+.move p{
+   font-family: Public Sans;
+font-weight: 400;
+font-size: 16px;
+
+line-height: 30px;
+letter-spacing: 0px;
+ color:#33323D;
+}
+
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid  rgba(51, 50, 61, 0.15);
+    margin-bottom: 115px;
+    margin-top: 64px;
+   
+;
+}

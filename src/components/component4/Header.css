@@ -1,0 +1,28 @@
+header{
+    max-width: 1111px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 32px;
+    margin:0 auto;
+    padding-top: 64px;
+    
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    justify-content: center;
+}
+
+nav ul li{
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 2px;
+text-transform: uppercase;
+color:#33323D;
+}
+
+

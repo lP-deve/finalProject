@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+section {
+  max-width: 1111px;
+  margin: 0 auto;
+}
+
+section img:nth-child(1) {
+  max-width: 100%;
+}
+
+.info {
+  max-width: 446px;
+  background-color: #fafafa;
+  padding-top: 56px;
+  position: absolute;
+  top: 41%;
+  padding-bottom: 10px;
+  padding-left: 2px;
+}
+.section {
+  position: relative;
+  margin-top: 52px;
+  margin-bottom: 152px;
+}
+
+.info h2 {
+  width: 390px;
+  font-family: Ibarra Real Nova;
+  font-weight: 700;
+  font-size: 50px;
+  color: #33323d;
+  line-height: 50px;
+  letter-spacing: -0.45px;
+  margin-bottom: 53px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 200px;
+  height: 48px;
+
+  background: linear-gradient(135deg, black, #203a4c);
+}
+.icon {
+  width: 48px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.btn button {
+  width: 100%;
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  height: 100%;
+  text-transform: uppercase;
+}
+
+#person {
+  max-width: 540px;
+  margin-bottom: 150px;
+}
+.group {
+  display: flex;
+  gap: 125px;
+}
+.aboutPerson {
+  width: 350px;
+}
+.aboutPerson p {
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #33323d;
+  line-height: 30px;
+  letter-spacing: 0px;
+  width: 100%;
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+.line {
+  background-color: rgba(51, 50, 61, 0.15);
+  width: 100%;
+  height: 1px;
+}
+
+.aboutPerson h2 {
+  font-family: Ibarra Real Nova;
+  font-weight: 700;
+  font-size: 40px;
+  color: #33323d;
+  margin-top: 50px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+}
+.aboutPerson button {
+  width: 202px;
+  height: 48px;
+  border: 1px solid #33323d;
+  color: #33323d;
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 46px;
+}
+.align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.align p {
+  color: #33323d;
+  font-family: Ibarra Real Nova;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+  width: 350px;
+  margin-right: 32px;
+}
+
+.lineLonger {
+  background-color: rgba(51, 50, 61, 0.15);
+  height: 1.1px;
+  width: 60%;
+  margin-right: 32px;
+}
+
+.align button {
+  width: 162px;
+  height: 48px;
+  border: 1px solid #33323d;
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 12px;
+  color: #33323d;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
