@@ -8,6 +8,15 @@ header{
     padding-top: 64px;
     
 }
+.anchors{
+  transition: 0.3s;
+}
+.anchors:hover{
+  
+ transform: scale(1.1);
+ color:#33323D;
+;
+}
 
 header nav ul{
     display: flex;
@@ -24,5 +33,163 @@ letter-spacing: 2px;
 text-transform: uppercase;
 color:#33323D;
 }
+
+
+.burger {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+  z-index: 1001;
+}
+
+.burger span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: black;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transition: all 0.25s ease-in-out;
+}
+
+.burger span:nth-of-type(1) {
+  top: 0;
+}
+.burger span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.burger span:nth-of-type(3) {
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+.burger.open span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 8px;
+}
+
+.burger.open span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.burger.open span:nth-of-type(3) {
+  transform: rotate(-45deg);
+  top: 8px;
+}
+
+
+
+.burger{
+    display: none;
+}
+nav.active {
+  left: 0;
+}
+
+.burger{
+    z-index: 99999;
+    width: 22px;
+    height: 22px;
+}
+
+
+@media screen and (max-width:1000px){
+       header{
+        width: 100%;
+        padding-inline: 20px  
+
+       }
+
+       header nav ul{
+        gap: 26px;
+        flex-direction: column;
+}
+
+   header nav ul li{
+     font-size: 18px;
+   }
+
+.burger{
+    display: block;
+   
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: -120vw;
+  width: 100vw;
+  height: 100vh;
+  background-color: #bdbdbd28;
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  z-index: 9999;
+  transition: left 0.3s ease-in-out;
+  
+};
+
+
+
+
+}
+
+
+@media screen and (max-width:410px){
+       header{
+        width: 100%;
+        padding-inline: 20px  
+
+       }
+
+       header nav ul{
+        gap: 26px;
+        flex-direction: column;
+}
+
+   header nav ul li{
+     font-size: 18px;
+   }
+
+.burger{
+    display: block;
+   
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: -120vw;
+  width: 100vw;
+  height: 100vh;
+  background-color: #bdbdbd28;
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  z-index: 9999;
+  transition: left 0.3s ease-in-out;
+  
+};
+
+
+
+
+}
+
+
+
+
+
+
 
 

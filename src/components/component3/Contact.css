@@ -34,8 +34,14 @@
   color: #33323d;
   max-width: 350px;
 }
-form {
-  width: 635px;
+
+.fomrs{
+  width: 60vw;
+  display: flex;
+  justify-content: end;
+}
+form{
+width: 84%;
 }
 .inp1 {
   display: flex;
@@ -92,4 +98,41 @@ margin-bottom: 109px;
 .error-msg{
   color:red;
   margin-bottom: 22px;
+}
+
+@media screen  and (max-width:1000px){
+  .contact{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fomrs{
+    width: 100vw;
+    justify-content: center;
+  }
+  
+  form{
+    width: 80%;
+    margin-top: 30px;
+ 
+  }
+ 
+  .aboutMe p{
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: center;
+    width: 90vw;
+  }
+ #contactme{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap:12px;
+ }
+
+ form button{
+ width: 100%;
+ height: 38px;
+ border-radius: 8px;
+ }
 }

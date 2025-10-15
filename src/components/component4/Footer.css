@@ -13,6 +13,11 @@ footer ul{
     gap:42px;
     margin-left: 48px;
 }
+.footerItems{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
 footer ul li{
     font-family: Public Sans;
@@ -32,3 +37,76 @@ text-transform: uppercase;
     justify-content: space-between;
 }
 
+@media screen and (max-width: 410px){
+    footer{
+        padding-inline: 12px;
+        width: 100%;
+    }
+    footer ul{
+    display: flex;
+    gap:6px;
+    margin-left: 12px;
+    margin-top: 0;
+}
+
+footer ul li{
+  
+font-size: 10px;
+line-height: 100%;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-right: 8px;
+
+}
+
+.socials{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socials img{
+    width: 16px;
+    height: 16px;
+}
+
+
+
+}
+
+@media screen and (max-width: 1000px){
+    footer{
+        padding-inline: 12px;
+        width: 100%;
+    }
+    footer ul{
+    display: flex;
+    gap:6px;
+    margin-left: 12px;
+    margin-top: 0;
+}
+
+footer ul li{
+  
+font-size: 10px;
+line-height: 100%;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-right: 8px;
+
+}
+
+.socials{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socials img{
+    width: 16px;
+    height: 16px;
+}
+
+
+
+}

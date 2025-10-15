@@ -1,0 +1,22 @@
+
+
+button{
+    padding-inline: 30px;
+    background: transparent;
+    height: 48px;
+    border: 1px solid #33323D;
+color:#33323D; 
+font-family:Public Sans;
+font-weight:400;
+font-size:12px;
+line-height: 100%;
+letter-spacing: 2px;
+text-transform: uppercase;
+ margin-bottom:105px;
+ transition: 0.3s ease-in;
+}
+
+button:hover{
+    background-color: #33323D;
+    color:rgb(255, 251, 251);
+}

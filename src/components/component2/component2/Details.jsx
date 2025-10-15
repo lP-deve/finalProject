@@ -32,10 +32,10 @@ const Details = () => {
         <div className="manage">
           <div className="line"></div>
           <h3>{data.title}</h3>
-          <p>{data.descr}</p>
+          <p className='paragraph'>{data.descr}</p>
           <div className="coloredText">
-            <p>Interaction Design / Front End Development</p>
-            <p>HTML / CSS / JS</p>
+            <p className='paragraph' >Interaction Design / Front End Development</p>
+            <p className='paragraph'>HTML / CSS / JS</p>
           </div>
         </div>
 

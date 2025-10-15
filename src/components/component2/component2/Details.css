@@ -10,7 +10,7 @@
 }
 
 .manage{
-    max-width: 350px;
+    width: 40%;
 }
 .manage h3{
 font-family: Ibarra Real Nova;
@@ -106,4 +106,60 @@ letter-spacing: 0px;
     margin-top: 64px;
    
 ;
+}
+
+@media screen and (max-width:1000px){
+    .coverImg{
+        width: 100%;
+    }
+
+    .project_info{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .project_info p{
+        width: 100%;
+    }
+
+    .navigate{
+        width: 90%;
+    }
+    .container img{
+        width: 100%;
+    }
+    .container{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
+    .container p{
+        text-align: center;
+    }
+    .navigate h5{
+        font-size: 24px;
+
+    }
+    .navigate p{
+        font-size: 14px;
+    }
+    .manage{
+        width: 70% ;
+        margin:0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .coloredText{
+        width: 100%;
+    }
+    .paragraph{
+        width: 40%;
+        text-align: center;
+    }
 }

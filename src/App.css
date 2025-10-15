@@ -24,3 +24,21 @@ body{
   background-color:#FAFAFA ;
 
 }
+
+@media screen and (max-width: 410px){
+  body{
+    max-width: 410px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  body{
+    max-width: 1000px;
+  }
+}
+
+
+ul li:hover{
+ color:rgb(117, 115, 115);
+}
+

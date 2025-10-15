@@ -41,7 +41,7 @@ const schema = yup.object().shape({
             to detail. Please do feel free to check out my online profiles below and
             get in touch using the form.
           </p>
-          <div className="socials">
+          <div className="socials" id="contactme">
             <img src="/Path(2).svg" alt="github" />
             <img src="/Path(3).svg" alt="twitter" />
             <img src="/Shape(1).svg" alt="linkedin" />
